@@ -12,7 +12,7 @@ print("\n")
 #player1 input
 print("enter Player 1's choice:")
 print("\n")
-player1 = input()
+player1 = input().lower()
 print("\n")
 
 # Below is the no cheating screen
@@ -21,7 +21,7 @@ print("*** NO CHEATING ***\n\n" * 200)
 #player2 input
 print("enter Player 2's choice:")
 print("\n")
-player2 = input()
+player2 = input().lower()
 
 # beginning of game logic
 if player1 and player2:
